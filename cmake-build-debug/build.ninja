@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_DZ_ST_C_08_: phony || CMakeFiles/DZ_ST_C
 
 build CMakeFiles/DZ_ST_C_08_.dir/main.cpp.obj: CXX_COMPILER__DZ_ST_C_08__Debug C$:/Users/fanil724/CLionProjects/DZ_ST_C_08/main.cpp || cmake_object_order_depends_target_DZ_ST_C_08_
   DEP_FILE = CMakeFiles\DZ_ST_C_08_.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\DZ_ST_C_08_.dir
   OBJECT_FILE_DIR = CMakeFiles\DZ_ST_C_08_.dir
 

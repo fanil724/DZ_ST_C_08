@@ -60,7 +60,7 @@ public:
         remove();
     }
 
-     My_shared &operator=(My_shared<T> &ptrr) {
+     My_shared &operator=(My_shared &ptrr) {
 //        if (*ptr_count > 0) {
 //            remove();
 //        }

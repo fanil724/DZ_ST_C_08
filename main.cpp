@@ -4,6 +4,7 @@
 #include <memory>
 #include "DIRECTORY.hpp"
 #include "My_ptr.hpp"
+#include "Dictionary.hpp"
 
 int main() {
     //Задание 1.
@@ -29,21 +30,28 @@ int main() {
 
 //Задание 2.
 
-    std::shared_ptr<int> s(new int(85));
-    std::shared_ptr<int> s2;
-    std::cout << s.use_count() << std::endl;
-    s2 = s;
-    std::cout << s.use_count() << std::endl;
+//    std::shared_ptr<int> s(new int(85));
+//    std::shared_ptr<int> s2;
+//    std::cout << s.use_count() << std::endl;
+//    s2 = s;
+//    std::cout << s.use_count() << std::endl;
+//
+//    std::cout << "__________________________________________\n";
+//
+//    My_shared<int> s1(new int(85));
+//    My_shared<int> s21;
+//    My_shared<int> s22;
+//    std::cout << s1.use_count() << std::endl;
+//    s21 = s1;
+//    s22 = s1;
+//    std::cout << s1.use_count() << std::endl;
 
-    std::cout << "__________________________________________\n";
+//Задание 3.
 
-    My_shared<int> s1(new int(85));
-    My_shared<int> s21;
-    My_shared<int> s22;
-    std::cout << s1.use_count() << std::endl;
-    s21 = s1;
-    s22 = s1;
-    std::cout << s1.use_count() << std::endl;
-
+    Dictionary d;
+    d.read();
+    d.print();
+    d.save();
+    d.printWord();
 
 }
